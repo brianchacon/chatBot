@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html class="sr" lang="es" prefix="og: http://ogp.me/ns#" data-react-helmet="lang,prefix">
+<head>
+    <title>Brian Chacon</title>
+    <meta charset="utf-8">
+	<meta property="og:title" content="Brian Chacon" />
+	<meta property="og:type" content="website" />
+<!-- 	<meta property="og:image" content="https://frontendlabs.io/frontend-labs-facebook.png" />
+	<meta property="og:url" content="https://frontendlabs.io/" /> -->
+	<link rel="shortcut icon" href="Files/icon.png">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<script src="funciones.js"></script> 
+</head>
+<body>
+    <div class= "container">
+        <div class="menuBar">
+            <div class="recuadro" id="recIzq">
+                <input type="button" onClick="" value="Abrir">
+                <input type="button" onClick="" value="Guardar">
+                <input type="button" onClick="convertir()" value="Convertir">
+            </div>
+            <div class="recuadro" id="recDer">
+                Título:
+                <input type="text" id="tituloIn">
+                <input type="button" onClick="getTitulo()" value="Cambiar" id="tituloBtn">
+            </div>
+        </div>
+        <div class="document">
+            <h1 class ="nombre_del_programa"> Entrada</h1>
+            <div class="box" id="PanelLeft">
+                <div class="box" id="panelObject">
+                    <p class="tit">Texto:</p>
+                    <input type="text" id="txtIn">
+                    <input type="button" onClick="setText()" value="Set" id="setTBot">
+                    <div class="box" id="m">
+                        
+                            <input type="button" onClick="newButton()" value="+ Botón" id="newBot">
+                        
+                        <div class="box" id="previewButton">
+                            <p class="tit">Texto:</p>
+                            <input type="text" onFocus="va ciar(this)"value="texto del botón" id="txtBotIn">
+                            <p class="tit">Conex:</p>
+                            <input type="text" onFocus="va ciar(this)"value="conex"id="conBotIn">
+                            <input type="button" onClick="setButton()" value="Set" id="setBot">
+                        </div>
+                    </div>
+                    
+                    <p class="tit">Palabra clave:</p>
+                    <input type="text" id="keyIn">
+                    <input type="button" onClick="setKeys()" value="Set" id="setKey">
+                </div>
+                <div id="previewObjectContainer">
+                    <div class="box" id="previewObject">
+                        <div class="popo" id ="previewTxt">
+                        </div>
+                        <input type="button" class="popo" value="" id ="previewBot">
+                        
+                        <div class="popo" id ="previewKeys">
+                        </div>
+                        
+                    </div>
+                </div><input type="button" onClick="confirmObj()" value="OK" id="confirmobj">
+            </div> 
+        
+        </div>
+        <div class="document">
+            <h1 class ="nombre_del_programa"> Salida</h1>
+            <div class="textDocument" id="textDocument">
+                
+            </div> 
+        
+        </div>
+    </div>
+</body>
+</html>

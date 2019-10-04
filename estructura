@@ -1,0 +1,17 @@
+PanelLeft
+    previewObject
+        previewTxt
+        previewBot
+        previewKeys
+    panelObject
+        "texto"
+        id=txtIn
+        id=setBot
+        id=newBot
+        previewButton
+            "texto"
+            id=txtBotIn
+            id=conBotIn
+            id=setBot
+        id=keyIn
+        id=setKey    

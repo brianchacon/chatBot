@@ -1,0 +1,206 @@
+*{
+    background-color:#3a3a3a;
+   color:#767474;
+   color: white;
+   color:#08fd75;
+}
+html,body{
+    height: 100%;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+h1{
+   color:#08fd75;
+   font-size: 50px;
+}
+.menuBar{
+position:relative;
+    float: top;
+    background-color:#3a3a3a;
+    height:8%;
+
+}
+.recuadro{
+    position:relative;
+    float: left;
+    background-color:#3a3a3a;
+    padding-left:2%;
+    padding-right:0%;
+}
+#recIzq{
+    width:55.7%;
+    height:100%;
+}
+#recDer{
+    width:40%;
+    float: right;
+}
+#tituloBtn{
+    height:100%;
+}
+/* Add a background color and some padding around the form */
+.container {
+    position:relative;
+    float: top;
+/*    border:1px solid gray;
+    border-radius: 5px;*/
+    background-color: #f2f2f2;
+    padding: 0px;
+    margin-top:20px;
+    width:99.8%;
+    height: 100%;
+  
+}
+.document{
+    position:relative;
+    float:left;
+    width: 50%;
+    height: 100%;
+    margin-top:0%;
+    margin-left:0%;
+    border:none;
+}
+#textDocument{
+    position:relative;
+    float: left;
+    width:99.9%;
+    height:100%;
+    overflow-y:scroll;
+}
+#textDocument .box{
+    position:relative;
+    float: top;
+    width: auto;
+    height:auto;
+    margin-left:1%;
+    margin-right: 30%;
+    padding: 2%;
+}
+
+.nombre_del_programa{
+    margin-top: 0%;
+    margin-left:30%;
+    margin-bottom: 0%;
+}
+p.p{
+    background-color: white;
+    font-size: 30px;
+    margin-left:2%;
+    margin-right:2%;
+}
+p.p2{
+    color: #aaa;
+    font-size: 22px;
+    margin-left:2%;
+    margin-right:2%;
+}
+form{
+    height: 100%;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    height: 100%;
+    padding: 12px; /* Some padding */  
+    border: 1px solid gray; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+#tituloIn{
+    width: 70%;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=button] {
+
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 100%;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=button]:hover {
+  background-color: #458e48;
+}
+
+textarea:focus, input:focus, input[type]:focus{
+    border-color:#08fd75;
+    box-shadow: 0 1px 1px rgba(19, 191, 95, 0.075)inset, 0 0 8px rgba(8, 253, 117,0.6);
+    outline: 0 none;
+}
+.box{
+    float:left;
+    display:box;    
+    border: 1px solid gray;
+    border-radius: 4px;
+    box-sizing: border-box; 
+    padding: 12px 20px;
+    margin: 1%;
+    margin-top: 0%;
+
+    
+}
+#PanelLeft{
+    height: 100%;
+    width: 97%;
+}
+.tit{
+    float:bottom;
+    margin-bottom:0%;
+}
+#previewObject{
+    background-color:white; 
+    width: 60%;   
+    height: 35%;
+}
+.popo{    color:black;background-color:white;}
+#m{
+    width: 96%;
+}
+#m2{
+    
+    float:bottom;
+    width: 47%;
+    height: 60%;
+}
+.previewTxt{}
+#previewBot{
+    display:none;
+    height: 15%;       
+}
+.previewKeys{}
+#panelObject{
+    width: 97%;
+    display:box;   
+    /*display:none;*/
+}
+#txtIn{width: 80%;height: 10%;}
+#setTBot{width: 10%;height: 10%;}
+#newBot{ float:left;   width: 45%;height: 30%;}
+#previewButton{
+  
+    width: 49%;
+    display:none;
+    margin-left:3%;
+}
+#txtBotIn{height: 10%;}
+#conBotIn{height: 10%;}
+#setBot{width: 20%;height: 10%;}
+#keyIn{width: 80%;height: 10%;}
+#setKey{width: 10%;height: 10%;} 
+#confirmobj{
+    float:bottom;
+    width: 20%;
+    height: 10%;
+    padding:1%;
+    /*display:none;*/
+}
