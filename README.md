@@ -2,9 +2,9 @@
 
 
 
-### bout this proyect ###
+### About this proyect ###
 
-This is a editor to create automatic answers
+This is a editor to create automatic answers.
    
  
 
