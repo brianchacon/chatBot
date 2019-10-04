@@ -2,18 +2,14 @@
 
 
 
-###About this proyect ###
+### bout this proyect ###
 
 This is a editor to create automatic answers
    
  
 
 
-### Objetivos ###
-  Este proyecto es un proyecto personal, para la practica en Java, y sus 
-interfaces.
-  Cualquier sugerencia es bien recivida, y si quieres usar este proyecto eres 
-  libre de hacerlo, solo mencioname y muestrame que has hecho con el.
+
 ## by ##
 
 * Brian A. Chacón
